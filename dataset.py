@@ -1,7 +1,9 @@
 import pandas as pd
 
 
-def get_country_data(dataset_path: str = "facts_countries.csv") -> pd.DataFrame:
+def get_country_data(
+    dataset_path: str = "rest-api-pandas-demo/facts_countries.csv",
+) -> pd.DataFrame:
     """Ucitava CSV datoteku na dataset_path putanji. Cisti podatke, uklanja NaN celije, transponira podatke u DataFrame-u i vraca formatirani DataFrame
 
     Args:
